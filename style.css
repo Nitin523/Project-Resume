@@ -25,16 +25,18 @@ body{
 .user-box img{
     border-radius: 50%;
     width:250px;
-    border:2px solid #6caed5;
+    border:2px solid #151616;
 }
 
 .user-box h1{
     margin: 10px;
     color: white;
     font-weight: bold;
+    font-family: cursive;
 }
 .user-box p{
     color: white;
+    font-family: Georgia;
 }
 .scroll-btn{
     bottom: 30px;
@@ -63,7 +65,7 @@ body{
 
 .about{
     padding-top: 100px;
-    padding-bottom: 50px;
+    margin-bottom:-120px;
 }
 .profile-img{
     height: 400px;
@@ -110,6 +112,7 @@ body{
 /**--------------Resume-----------------**/
 
 .resume{
+    margin-top: -20px;
     padding-top: 50px;
     padding-bottom: 30px;
     background: #f9f9f9;
@@ -174,7 +177,7 @@ body{
     background: rgb(252, 4, 4);
     padding: 10px;
     margin-top: 20px;
-    text-shadow: rgb(240, 230, 230);
+    text-shadow: rgb(75, 67, 67);
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
 }
@@ -189,12 +192,104 @@ body{
     font-weight: bold;
 }
 .services-box p{
-    color:white;
+    color:rgb(230, 255, 6);
+    margin-top: 20px;
+    color: rgb(248, 248, 248);
+}
+.services-box:hover{
+    background: rgb(179, 167, 167);
+    padding: 10px;
+    margin-top: 20px;
+    text-shadow: rgb(240, 230, 230);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    transition:step-end;
+
+}
+
+/**----------------------------Contact---------------**/
+.contact{
+    padding-top: 50px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/background2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+
+}
+.contact .row{
+        padding: 30px 0;
+        font-size: 22px;
+}
+.contact .col-md-4 .fa{
+    padding: 10px;
+    font-size: 40px;
+}
+.contact .btn{
+    padding: 10px 25px 10px 25px;
+    margin: 5px;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    background: transparent;
+}
+.contact .btn :focus{
+    box-shadow: none !important;
+}
+.contact .btn:hover{
+    border: 2px solid rgb(0, 0, 0) !important;
+    background: rgb(241, 0, 0) !important;
+    transition: 0.7s;
+}
+
+.contact .btn .fa{
+    margin: 5px;
+}
+
+.footer{
+    background: rgb(0, 0, 0);
+    height: 50px;
+    margin-top: 50px;
+    color: white;
+    padding-top: 10px;
+}
+.fa-heart{
+     color: red;
 }
 
 
 
+/**----------------------------sociAL Icons----------------------------**/
 
+.social-icons{
+    top: 50%;
+    transform: translateY(-50%);
+    position: sticky;
+    z-index: 1;
+    width: 80px;
+}
+.social-icons ul{
+    padding: initial;
+
+}
+.social-icons ul li{
+    height: 40px;
+    width: 40px;
+    list-style-type: none;
+    padding-left: 12px;
+    padding-left: 12px;
+    padding-top: 6px;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+    background:#000;
+    
+}
+.social-icons ul li:hover{
+    padding-left: 25px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius:10px ;
+    width: 80px;
+    transition: 1s;
+}
 
 
 
