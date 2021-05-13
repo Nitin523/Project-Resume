@@ -159,3 +159,45 @@ body{
     height:20px;
     z-index: 1;
 }
+
+ 
+/**---------------services-------------**/
+.services{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.services h1{
+    margin-bottom: 15px ;
+}
+.services-box{
+    background: rgb(252, 4, 4);
+    padding: 10px;
+    margin-top: 20px;
+    text-shadow: rgb(240, 230, 230);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.services-box .fa{
+    margin:3px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.services-box span{
+    margin: 3px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.services-box p{
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
